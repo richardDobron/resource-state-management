@@ -1,0 +1,38 @@
+{
+  "name": "resource-state-management",
+  "version": "0.0.1",
+  "description": "A lightweight utility for efficient patching and pruning of objects in JavaScript/TypeScript state trees.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardDobron/resource-state-management.git"
+  },
+  "author": "Richard Dobroň",
+  "keywords": [
+    "state-management",
+    "swr",
+    "react"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "prettier": "prettier --write index.js test",
+    "lint": "eslint --max-warnings 0 --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.1.1",
+    "prettier": "^2.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/richardDobron/resource-state-management/issues"
+  },
+  "homepage": "https://github.com/richardDobron/resource-state-management#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}

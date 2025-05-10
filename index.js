@@ -52,7 +52,7 @@ function patchResources(obj, map) {
 /**
  * Recursively filters out any objects with a specific integrity key.
  * @param {*} obj - The source to filter.
- * @param {string} target - Integrity key to remove.
+ * @param {string} integrity - Integrity key to remove.
  * @returns {*|undefined} Filtered object or undefined if the integrity key matches.
  */
 function pruneResources(obj, integrity) {

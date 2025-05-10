@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A lightweight utility for efficient patching and pruning of objects in JavaScript/TypeScript state trees.",
   "main": "index.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -103,10 +103,10 @@ import { mutate } from 'swr';
 +     );
 + }
 
-+ async function pruneResource(key: string) {
++ async function pruneResource(integrity: string) {
 +   await mutate(
 +     () => true,
-+     (cache: any) => pruneResources(cache, key),
++     (cache: any) => pruneResources(cache, integrity),
 +     false
 +   );
 + }
@@ -140,7 +140,7 @@ async function deleteCompany(company) {
 -       (currentData: any) => currentData.filter(company => company.id !== response.id),
 -       false
 -   );
-+   await pruneResource(response);
++   await pruneResource(company.integrity);
 }
 ```
 
